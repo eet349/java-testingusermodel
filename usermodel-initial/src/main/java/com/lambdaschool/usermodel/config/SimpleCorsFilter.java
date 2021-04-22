@@ -17,7 +17,7 @@ import java.io.IOException;
  */
 @Component
 @Order(Ordered.HIGHEST_PRECEDENCE)
-public class SimpleCorsFilter
+public abstract class SimpleCorsFilter
     implements Filter
 {
     @Override
